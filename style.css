@@ -1,17 +1,29 @@
-h2{
+h2 {
   text-align: center;
   color: #d9bf77;
 }
 
-h3{
+h3 {
   text-align: center;
   color: #9c5518;
 }
 
-th{
+th {
   color: #d7385e;
+  border: 1px solid #9dc6a7;
+  padding: 25px;
 }
 
-td{
+td {
   color: #687466;
+  border: 1px solid #9dc6a7;
+  border-color: #9dc6a7;
+  padding: 25px;
+}
+
+table.center {
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
