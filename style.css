@@ -1,8 +1,9 @@
+/***********************************TAG SELECTOR*******************************/
 body{
   background-color: #f7f7f7;
 }
 
-h2 {
+h1,h2 {
   text-align: center;
   color: #d9bf77;
 }
@@ -12,7 +13,7 @@ h3 {
   color: #9c5518;
 }
 
-table.center {
+table {
   border-collapse: collapse;
   text-align: center;
   margin-left: auto;
@@ -38,10 +39,35 @@ p{
 a{
   text-decoration: none;
   color: #11999E;
-  padding-right: 50px;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:hover{
   color: #af0404;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 55.0%;
+  color: #06623b;
+  margin: 50px auto 20px;
+}
+
+/***********************************CLASS SELECTOR*******************************/
+
+.git{
+  color: #687466;
+  text-align: center;
+}
+
+.git ul{
+  display: inline-table;
+  margin: 0;
+  padding: 0;
+}
+
+.git li{
+  padding: 10px 10px;
 }
