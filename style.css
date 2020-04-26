@@ -30,3 +30,18 @@ td {
   border: 1px solid #9dc6a7;
   padding: 25px;
 }
+
+p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #11999E;
+  padding-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #af0404;
+}
