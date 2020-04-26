@@ -32,14 +32,13 @@ td {
   padding: 25px;
 }
 
-p{
-  text-align: center;
-}
-
 a{
   text-decoration: none;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: 220px;
+  margin: auto;
 }
 
 a:hover{
@@ -50,7 +49,7 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
-  width: 55.0%;
+  width: 15.5%;
   color: #06623b;
   margin: 50px auto 20px;
 }
