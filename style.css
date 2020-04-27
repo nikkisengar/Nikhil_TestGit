@@ -50,23 +50,44 @@ hr {
   border-top-style: dotted;
   border-width: 5px;
   width: 15.5%;
-  color: #06623b;
+  color: #649d66;
   margin: 50px auto 20px;
 }
 
 /***********************************CLASS SELECTOR*******************************/
 
-.git{
+.gitCommand{
   color: #687466;
   text-align: center;
 }
 
-.git ul{
+.gitCommand ul{
   display: inline-table;
   margin: 0;
   padding: 0;
 }
 
-.git li{
+.gitCommand li{
   padding: 10px 10px;
+}
+
+.content{
+  color: #687466;
+}
+
+.content a{
+  color: #687466;
+}
+
+.content ul{
+  display: inline-table;
+  margin: 0;
+}
+
+.content li{
+  padding: 10px 10px;
+}
+
+.content h3{
+  text-align: left;
 }
