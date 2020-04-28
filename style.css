@@ -1,9 +1,9 @@
 /***********************************TAG SELECTOR*******************************/
-body{
+body {
   background-color: #f7f7f7;
 }
 
-h1,h2 {
+h1, h2 {
   text-align: center;
   color: #d9bf77;
 }
@@ -32,7 +32,7 @@ td {
   padding: 25px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -41,7 +41,7 @@ a{
   margin: auto;
 }
 
-a:hover{
+a:hover {
   color: #af0404;
 }
 
@@ -54,52 +54,57 @@ hr {
   margin: 50px auto 20px;
 }
 
-/***********************************CLASS SELECTOR*******************************/
+form {
+  padding: 30px;
+  text-align: left;
+  margin: auto;
+}
 
-.gitCommand{
+/***********************************CLASS SELECTOR*******************************/
+.gitCommand {
   color: #687466;
   text-align: center;
 }
 
-.gitCommand ul{
+.gitCommand ul {
   display: inline-table;
   margin: 0;
   padding: 0;
 }
 
-.gitCommand li{
+.gitCommand li {
   padding: 10px 10px;
 }
 
-.content{
+.content {
   color: #687466;
 }
 
-.content a{
+.content a {
   color: #687466;
 }
 
-.content ul{
+.content ul {
   display: inline-table;
   margin: 0;
 }
 
-.content li{
+.content li {
   padding: 10px 10px;
 }
 
-.content h3{
+.content h3 {
   text-align: left;
 }
 
-.feedback textarea{
+.feedback textarea {
   background-color: #ffffdd;
 }
 
-.feedback input{
+.feedback input {
   background-color: #ffffdd;
 }
 
-#btn{
+#btn {
   background-color: #0779e4;
 }
