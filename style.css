@@ -91,3 +91,15 @@ hr {
 .content h3{
   text-align: left;
 }
+
+.feedback textarea{
+  background-color: #ffffdd;
+}
+
+.feedback input{
+  background-color: #ffffdd;
+}
+
+#btn{
+  background-color: #0779e4;
+}
