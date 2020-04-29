@@ -60,6 +60,11 @@ form {
   margin: auto;
 }
 
+/* Another way to style using type attribute
+input[type=text]{
+  background-color: red;
+}*/
+
 /***********************************CLASS SELECTOR*******************************/
 .gitCommand {
   color: #687466;
