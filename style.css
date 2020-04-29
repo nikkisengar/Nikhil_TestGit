@@ -85,6 +85,11 @@ input[type=text]{
   padding: 10px 10px;
 }
 
+.gitCommand li::selection{
+  color: red;
+  background-color: yellow;
+}
+
 .content {
   color: #687466;
 }
