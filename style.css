@@ -37,12 +37,17 @@ a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   display: block;
-  width: 220px;
+  width: 250px;
   margin: auto;
 }
 
 a:hover {
   color: #af0404;
+}
+
+a::before{
+  content: "👉 ";
+  font-weight: bold;
 }
 
 hr {
