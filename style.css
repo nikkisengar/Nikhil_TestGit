@@ -45,7 +45,7 @@ a:hover {
   color: #af0404;
 }
 
-a::before{
+a::before {
   content: "👉 ";
   font-weight: bold;
 }
@@ -69,7 +69,6 @@ form {
 input[type=text]{
   background-color: red;
 }*/
-
 /***********************************CLASS SELECTOR*******************************/
 .gitCommand {
   color: #687466;
