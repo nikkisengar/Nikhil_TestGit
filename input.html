@@ -10,27 +10,53 @@
 	<link rel="stylesheet" href="style.css">
 
 	<!--Adding bootstrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<!--Adding the favicon icon-->
 	<link rel="icon" href="favicon/favicon.ico">
 </head>
 
 <body>
-	<h1>Hello, World!</h1>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a href="input.html" class="navbar-brand">nikkiSengar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="navbar-item">
+					<a href="" class="nav-link">Home</a>
+				</li>
+				<li class="navbar-item">
+					<a href="" class="nav-link">About</a>
+				</li>
+				<li class="navbar-item">
+					<button type="submit" class="btn btn-primary btn-sm">Sign In</button>
+					<button type="reset" class="btn btn-secondary btn-sm">Sign Up</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<br>
 	<div class="content">
 		<h3>Table of Content:</h3>
 		<ul>
-			<li><a href="#primeMinister" style="text-decoration:none;">Indian Prime Minister list.</a></li>
-			<li><a href="#gitCommand" style="text-decoration:none;">Git Commands.</a></li>
-			<li><a href="#formDetails" style="text-decoration:none;">Your Feedback.</a></li>
+			<li><a href="#primeMinister" id="link" class="text-decoration-none">Indian Prime Minister list.</a></li>
+			<li><a href="#gitCommand" id="link" class="text-decoration-none">Git Commands.</a></li>
+			<li><a href="#formDetails" id="link" class="text-decoration-none">Your Feedback.</a></li>
 		</ul>
 	</div>
 	<hr>
 	<br>
 	<h3 id="primeMinister">Indian Prime Minister's List:</h3>
-	<table>
+	<table class="table-dark table-lg table-hover">
 		<!--border="1" bordercolor="#e9e1cc" cellpadding="30" align="center"-->
 		<tr>
 			<th>Sequence</th>
@@ -149,7 +175,7 @@
 	</table>
 	<br>
 	<br>
-	<em><a target="_blank" style="text-decoration:none;text-align:center" href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>Download HTML Cheet Sheet</a></em>
+	<em><a target="_blank" id="link" class="text-center text-decoration-none" href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>Download HTML Cheet Sheet</a></em>
 	<hr>
 	<br>
 	<div class="gitCommand" id="gitCommand">
@@ -178,14 +204,16 @@
 	<hr>
 	<br>
 	<div id="formDetails">
-		<em><a target="_blank" href="form.html" style="text-decoration:none;text-align:center">Your Feedback</a></em>
+		<em><a target="_blank" href="form.html" id="link" class="text-center text-decoration-none">Your Feedback</a></em>
 	</div>
 	<br>
 	<footer>
-    <div class="alert alert-dark" role="alert">
-      <center><h6>&copy; 2020 Nikhil Sengar<h6></center>
-    </div>
-  </footer>
+		<div class="alert alert-dark" role="alert">
+			<center>
+				<h6>&copy; 2020 Nikhil Sengar<h6>
+			</center>
+		</div>
+	</footer>
 </body>
 
 </html>
