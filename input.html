@@ -258,6 +258,16 @@
 
 				<dt>git push --set-upstream origin 'branch name'</dt>
 				<dd>This command will create a new sub repository in GitHub with the specified branch name (in other words it will create a upstream branch in Github for our newly created branch in order to push the changes).</dd>
+
+				<dt>git branch -d localBranchName</dt>
+				<dd>This command will delete the specified branch from your local repository.</dd>
+
+				<dt>git push origin --delete remoteBranchName</dt>
+				<dd>This command will delete the specified branch from your remote repository (i.e. inside github).</dd>
+
+				<dt>git checkout -b localBranchName sha </dt>
+				<dd>This command will help to restore the deleted specified branch from your local repository. When you've just deleted the branch you'll see something like this in your terminal - "Deleted branch 'your-branch' (was 'sha')". Example: Deleted branch section (was 4af91d1). Here sha is 4af91d1</dd>
+
 			</dl>
 		</div>
 		<hr class="bg-light">
