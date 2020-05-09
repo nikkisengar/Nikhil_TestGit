@@ -1,10 +1,10 @@
 /***********************************TAG SELECTOR*******************************/
 body {
-  background-color: #b80d57;
+  font-family: "Montserrat";
 }
 
 h1, h2 {
-  text-align: center;
+  /* text-align: center; */
   color: #d9bf77;
 }
 
@@ -27,9 +27,13 @@ th {
 }
 
 td {
-  color: #d9bf77;
+  color: #687466;
   border: 1px solid #9dc6a7;
   padding: 25px;
+}
+
+td:hover{
+  color: #ffa41b;
 }
 
 hr {
@@ -38,7 +42,7 @@ hr {
   border-width: 5px;
   width: 15.5%;
   color: #649d66;
-  margin: 50px auto 20px;
+  margin: 50px auto 20px
 }
 
 form {
@@ -47,6 +51,41 @@ form {
   margin: auto;
 }
 
+dl{
+  padding: 1px 0.5rem 3rem 0.5rem;
+}
+
+dt {
+  /* display: block;  */
+  margin-top: 50px;
+}
+
+dd{
+  padding-left: 50px;
+}
+
+dt::before{
+  content: "▪️ ";
+}
+
+dt::after{
+  content: ": ";
+}
+
+dt:hover{
+  color: #ffa41b;
+}
+
+i:hover{
+  color: #ff4c68;
+}
+/*
+i{
+  color: #ff4c68;
+} */
+
+
+
 /* Another way to style using type attribute
 input[type=text]{
   background-color: red;
@@ -54,10 +93,14 @@ input[type=text]{
 /***********************************CLASS SELECTOR*******************************/
 .gitCommand {
   color: #687466;
-  text-align: center;
+  padding: 0 0 1.5rem;
 }
 
-.gitCommand ul {
+/* .hr{
+  color: #fff;
+} */
+
+/* .gitCommand ul {
   display: inline-table;
   margin: 0;
   padding: 0;
@@ -70,7 +113,7 @@ input[type=text]{
 .gitCommand li::selection{
   color: red;
   background-color: yellow;
-}
+} */
 
 .content {
   color: #687466;
@@ -127,10 +170,6 @@ input[type=text]{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }*/
-#formBody{
-  background: -webkit-linear-gradient(left, #888888, #888888);
-}
-
 .contact-form{
     background: #fff;
     margin-top: 10%;
@@ -171,7 +210,7 @@ input[type=text]{
     color: #fff;
     cursor: pointer;
 }
-.btnContactSubmit
+/* .btnContactSubmit
 {
     width: 50%;
     border-radius: 1rem;
@@ -180,9 +219,9 @@ input[type=text]{
     background-color: #0062cc;
     border: none;
     cursor: pointer;
-}
+} */
 
-// workaround
+/* // workaround
 .intl-tel-input {
   display: table-cell;
 }
@@ -197,22 +236,48 @@ input[type=text]{
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 0;
+} */
+
+.navbar{
+  padding: 0 0 4.5rem;
 }
 
-/***********************************CLASS SELECTOR*******************************/
+.navbar-brand{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #d9bf77;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #d9bf77;
+}
+
+
+
+/***********************************ID SELECTOR*******************************/
+#formBody{
+  background: -webkit-linear-gradient(left, #888888, #888888);
+}
+
 #link{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   display: block;
-  width: 250px;
+  width: 200px;
   margin: auto;
 }
 
-#link::before{
+/* #link::before{
   content: "👉 ";
   font-weight: bold;
-}
+} */
 
 #link:hover{
-  color: #af0404;
+  color: #ffa41b;
 }
