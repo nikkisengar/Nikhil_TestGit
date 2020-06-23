@@ -28,13 +28,13 @@ body {
 /* website logo */
 .logo {
   width: 200px;
-  height: 200px;
+  height: 100px;
 }
 
 /****************** Heading secion ******************/
 /* feedback heading */
 .feedback-heading {
-  color: #0062cc;
+  color: #fa744f;
 }
 
 /* h3-heading */
