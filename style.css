@@ -25,6 +25,12 @@ body {
   color: #d9bf77;
 }
 
+/* website logo */
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
 /****************** Heading secion ******************/
 /* feedback heading */
 .feedback-heading {
