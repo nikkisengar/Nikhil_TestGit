@@ -94,6 +94,7 @@ form {
 
 .contact-form .form-control{
     border-radius:1rem;
+    font-family: FontAwesome;
 }
 
 .contact-form form{
